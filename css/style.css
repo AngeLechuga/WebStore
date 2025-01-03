@@ -1,0 +1,14 @@
+/* Custom propierties */
+
+:root {
+    /* colores */
+    --negro: #120907;
+    --blanco: #F3F3F3;
+    --primero: #221e30;
+    --segundo: #4a4768;
+    --tercero: #7f76a3;
+    --cuarto: #c3a7e6;
+
+    /* Fuentes */
+    --fuentePrincipal : "Roboto Mono", serif;
+}
