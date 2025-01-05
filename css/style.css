@@ -6,10 +6,10 @@
     /* colores */
     --negro: #120907;
     --blanco: #F3F3F3;
-    --primero: #221e30;
-    --segundo: #4a4768;
-    --tercero: #7f76a3;
-    --cuarto: #c3a7e6;
+    --primero: #003366;
+    --segundo: #99ccff;
+    --tercero: #e6f2ff;
+    --cuarto: #9494b8;
 
     /* Fuentes */
     --fuentePrincipal : "Roboto Mono", serif;
@@ -30,7 +30,7 @@ html {
   }
 
 body {
-    background-color: var(--segundo);
+    background-color: var(--blanco);
     font-size: 1.6rem; /* Tamaño fuente */
     line-height: 1.5; /* Interlineado */
 }
@@ -38,7 +38,7 @@ body {
 p {
     font-size: 1.8rem; /* Tamaño de letra para * parrafos */
     font-family: Arial, Helvetica, sans-serif; /* Fuente para * parrafos */
-    color: var(--blanco) /* Color para  * parrafos */
+    color: var(--negro) /* Color para  * parrafos */
 }
 
 a {
@@ -99,7 +99,7 @@ h3 {font-size: 2.4rem;}
 
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
-    color: var(--cuarto);
+    color: var(--negro);
 }
 
 /* FOOTER */
