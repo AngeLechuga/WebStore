@@ -1,4 +1,6 @@
-/* Custom propierties */
+/*========================================================
+                    Custom propierties 
+==========================================================*/
 
 :root {
     /* colores */
@@ -13,7 +15,9 @@
     --fuentePrincipal : "Roboto Mono", serif;
 }
 
-/* Globales */
+/*========================================================
+                        Globales 
+==========================================================*/
 
 html {
     box-sizing: border-box; /* Box model */
@@ -57,14 +61,16 @@ h1 {font-size: 4rem;}
 h2 {font-size: 3.2rem;}
 h3 {font-size: 2.4rem;}
 
-/* Clases */
+/* =====================================================
+                        Clases 
+========================================================*/
 
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
 }
 
-/*__ Bloque de header */
+/* HEADER */
 .header {
     display: flex; /* Flex */
     justify-content: center; /* Centrando logo */
@@ -75,7 +81,7 @@ h3 {font-size: 2.4rem;}
     margin: 3rem 0; /* Margenes del logo */
 }
 
-/*__Bloque de navegación */
+/* BARRA DE NAVEGACIÓN  */
 .navegacion {
     background-color: var(--primero);
     padding: 2rem 0;
@@ -94,4 +100,17 @@ h3 {font-size: 2.4rem;}
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
     color: var(--cuarto);
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--tercero);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto {
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2rem;
 }
