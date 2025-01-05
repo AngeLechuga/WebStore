@@ -6,6 +6,7 @@
     /* colores */
     --negro: #120907;
     --blanco: #F3F3F3;
+    --gris : #b3b3b3;
     --primero: #003366;
     --segundo: #99ccff;
     --tercero: #e6f2ff;
@@ -99,7 +100,7 @@ h3 {font-size: 2.4rem;}
 
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
-    color: var(--negro);
+    color: var(--gris);
 }
 
 /* FOOTER */
