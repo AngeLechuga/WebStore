@@ -113,6 +113,11 @@ h3 {font-size: 2.4rem;}
     color: var(--gris);
 }
 
+.navegacion__bolsa {
+    width: 5rem;
+    margin-right: 2rem;
+}
+
 /* FOOTER */
 .footer {
     background-color: var(--tercero);
