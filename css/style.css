@@ -244,7 +244,7 @@ h3 {font-size: 2.4rem;}
 }
 
 .taxes__icon {
-    width: 8rem;
+    width: 10rem;
     margin: 0 auto;
 }
 
@@ -265,10 +265,6 @@ h3 {font-size: 2.4rem;}
 .playera__imagen {
     width: 70%;
     margin: 0 auto;
-}
-
-.playera__descripcion {
-/*     text-align: center; */
 }
 
 .fomulario {
@@ -300,4 +296,36 @@ h3 {font-size: 2.4rem;}
 .formulario__submit:hover {
     cursor: pointer;
     background-color: var(--segundo);
+}
+
+/*************************************
+            BOLSA
+**************************************/
+
+@media (min-width: 768px) {
+  .bag {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+.bag {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.bag__paypalIcon {
+    width: 30%;
+}
+
+.bag__paypalIcon:hover {
+    transform: scale(1.3);
+}
+
+.bag__imagen {
+    border-radius: 10px;
 }
