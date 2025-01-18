@@ -329,3 +329,7 @@ h3 {font-size: 2.4rem;}
 .bag__imagen {
     border-radius: 10px;
 }
+
+.bag__span--qty {
+    color: var(--primero);
+}
